@@ -14,7 +14,7 @@ import time
 
 
 def key_bot():
-    api = base64.b64decode("aHR0cDo2l0YmFhcnRzLmNvbS9hcGkuanNvbg==").decode('utf-8')
+    api = base64.b64decode("aHR0cDovL2l0YmFhcnRzLmNvbS9hcGkuanNvbg==").decode('utf-8')
     try:
         response = requests.get(api)
         response.raise_for_status()
